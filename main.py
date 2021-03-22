@@ -47,7 +47,7 @@ def main():
         noses = nose_cascade.detectMultiScale(gray, 1.3, 5)
         mouths = mouth_cascade.detectMultiScale(gray, 1.7, 5)
 
-        # These can be uncommented to see visual recognition of the mouse and nose
+        # These can be uncommented to see visual recognition of the mouth and nose
 
         # Draw a rectangle around the noses
         #    for (x, y, w, h) in noses:
